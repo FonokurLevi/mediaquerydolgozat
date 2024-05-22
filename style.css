@@ -1,0 +1,98 @@
+body{
+    padding:  40px 40px 40px;
+    background-color: gainsboro;
+    padding: 0 0 auto;
+
+    
+}
+#right{
+    display: inline;
+}
+
+#middle{
+    display: flex; 
+    height: 200px;  
+    margin: 0 0 auto;
+}
+
+#under{
+    display: flex;
+    height: 100px;
+}
+
+header{
+    background-color: #b588e7;
+    text-align: center;
+    width: 650px;
+    
+}
+
+main{
+    background-color: #a7dc8a;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    
+}
+
+aside{
+    background-color: #e3b957;
+    text-align: center;
+    width: 250px;
+    align-self: center;
+    height: 245px;
+}
+
+#statistics{
+    background-color: #91b7e8;
+    text-align: center;
+    width: 200px;
+}
+
+#widget{
+    background-color: #eb867c;
+    text-align: center;
+    width: 200px;
+}
+
+footer{
+    background-color: #b588e7;
+    text-align: center;
+    width: 650px;
+}
+
+@media all and (max-width: 600px){
+    body{
+        display:inline;
+        margin: 0 0 auto;
+    }
+#middle{
+    display: inline;
+}
+
+#under{
+    display: inline;
+}
+header{
+    width: 400px;
+}
+footer{
+    width: 400px;
+}
+aside{
+    height: 50px;
+    width: 400px;
+}
+main{
+    height: 50px;
+    width: 400px;
+}
+#statistics{
+    height: 50px;
+    width: 400px;
+}
+#widget{
+    height: 50px;
+    width: 400px;
+}
+}
